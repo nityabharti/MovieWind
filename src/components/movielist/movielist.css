@@ -1,0 +1,33 @@
+.movielist-container {
+  width: 100%;
+  padding: 32px;
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+.moviecard {
+  height: 410px;
+  width: 230px;
+  position: relative;
+  border: 1px dashed;
+  border-radius: 20px;
+}
+.movieposter {
+  border-radius: 20px 20px;
+  height: 408px;
+  width: 228px;
+  object-fit: cover;
+}
+.movieInfo {
+  position: absolute;
+  padding: 5px;
+  border-radius: 0 0 20px 20px;
+  bottom: 0;
+  left: 0;
+  height: 30%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
